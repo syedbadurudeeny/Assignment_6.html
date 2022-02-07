@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+.topbar{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: black;
+}
+ul li{
+    float: left;
+    display: inline;
+    color: white;
+}
+.info{
+    float: right;
+    display: inline;
+    color: white;
+}
+.img-fluid{
+    float: left;
+}
+ol li{
+    float: right;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+.home{
+    background-color: rgb(98, 199, 84);
+}
+.bigbox{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+.boxes{
+    width: 100%;
+}
+.box1{
+    width: 27%;
+    float: left;
+    margin: 30px;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.box2{
+    width: 27%;
+    float: left;
+    margin: 30px;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.box3{
+    width: 27%;
+    float: left;
+    margin: 30px;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.box1 h4{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(214, 203, 198);
+}
+.box1 p{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.box1 .read{
+     text-align: center;
+     color: white;
+     background-color: greenyellow;
+     padding: 2px;
+     font-family: 'Courier New', Courier, monospace;
+     margin-right: 10px;
+     font-style: italic;
+}
+.box2 h4{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(214, 203, 198);
+}
+.box2 p{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.box2 .read{
+     text-align: center;
+     color: white;
+     background-color: greenyellow;
+     padding: 2px;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: italic;
+     margin-right: 10px;
+}
+.box3 h4{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(214, 203, 198);
+}
+.box3 p{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.box3 .read{
+     text-align: center;
+     color: white;
+     background-color: greenyellow;
+     padding: 2px;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: italic;
+     margin-right: 10px;
+}
+.portion{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+article{
+    width: 90%;
+    margin: auto
+}
+.top{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.bigportion{
+    width: 40%;
+    float: left;
+    height: 68vh;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: dotted;
+    background-color: black;
+}
+.bigportion h4{
+    color: white;
+    text-align: center;
+}
+.bigportion p{
+    color: white;
+    text-align: center;
+}
+.bigportion .read{
+         color: greenyellow;
+         background-color: black;
+         border:  2px solid greenyellow;
+         text-align: center;
+         border-radius: 10px;
+         margin-left: 25%;
+         margin-right: 25%;
+         padding: 10px;
+}
+.cols{
+    background-color: rgb(83, 74, 74);
+    margin-top: 11px;
+    padding: 10px;
+}
+.smallportion{
+    width: 20%;
+    float: left;
+}
+.small1{
+    width: 5%;
+    height: 10vh;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: dotted;
+    margin-top: 0;
+    margin-left: 30%;
+    margin-bottom: 50%;
+    padding: 30px;
+    background-color: black;
+}
+.small2{
+    width: 5%;
+    height: 10vh;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: dotted;
+    margin-left: 30%;
+    margin-bottom: 50%;
+    padding: 30px;
+    background-color: black;
+}
+.small3{
+    width: 5%;
+    height: 10vh;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: dotted;
+    margin-left: 30%;
+    margin-bottom: 19%;
+    padding: 30px;
+    background-color: black;
+}
+.contentportion{
+    width:20%;
+    float: left;
+    margin-right: 10%;
+}
+.first{
+      font-size: small;
+      font-weight: bold;
+      font-style: italic;
+}
+.read{
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    background-color: aliceblue;
+    margin-right: 40%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.vertical{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(145, 130, 130);
+}
+.middle{
+    width: 80%;
+    margin: auto;
+}
+.left{
+    width: 45%;
+    height: 20vh;
+    margin-top: 1%;
+    background-color: black;
+    margin-right: 3%;
+    float: left;
+}
+.right{
+    width: 45%;
+    height: 20vh;
+    margin-top: 1%;
+    margin-left: 3%;
+    background-color: black;
+    float: left;
+}
+.leftinside{
+    width: 50%;
+    background-color: orange;
+    float: right;
+    height: 20vh;
+}
+.rightinside{
+    width: 50%;
+    float: left;
+}
+.leftinside h4{
+          color: aliceblue;
+          padding: 8px;
+          text-align: center;
+}
+.if{
+    padding: 5px;
+    border: 2px solid white;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 80px;
+    border-radius: 10px;
+    border-style: groove;
+}
+.alldon{
+    padding: 50px;
+}
+.don{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.smalldon{
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+.footstart{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.footsingle{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.footdouble{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.foottriple{
+    width: 30%;
+    float: left;
+}
+.footsingle h4{
+       color: rgb(158, 147, 147);
+}
+.footsingle p{
+    color: rgb(158, 147, 147);
+}
+.footsingle div{
+    color: rgb(158, 147, 147);
+}
+.footdouble h4{
+    color: rgb(158, 147, 147);
+}
+.footdouble a{
+        text-decoration: none;
+        color: greenyellow;
+}
+.foottriple h4{
+    color: rgb(158, 147, 147);
+}
+input[type="submit"]{
+    padding: 10px;
+    background-color: greenyellow;
+    color: white;
+}
+input[placeholder="emial"]{
+    color: rgb(158, 147, 147);
+}
+input[type="email"]{
+    background-color: black;
+}
+.foottriple span{
+    color: rgb(158, 147, 147);
+}
+.span{
+    background-color: rgb(51, 45, 45);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.copyrights{
+    background-color: rgb(107, 93, 93);
+    height: 10vh;
+}
+.copyrights1{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
